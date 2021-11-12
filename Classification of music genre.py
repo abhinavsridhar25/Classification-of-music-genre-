@@ -1,50 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ## Project : Classification
-# 
-# #### Due Date: Friday October 22, 2021 at 11:59PM ET
-# 
-# In this assignment, we will learn to classify songs into genres based on lyrics. We will get practice with
-# 
-# - processing strings
-# - manipulating tables
-# - generating charts
-#   
-# The questions guide you step-by-step through these approaches.
-# 
-# #### Collaboration Policy
-# 
-# You are prohibited from sharing your solutions. You are discouraged from providing guidance or assistance on questions. You should refrain from discussing the assignment with others. Consult the syllabus for information about policies surrounding misconduct.
-
-# **Name:** *Abhinav Sridhar*
-
-# **NetId:** *as15152*
-
-# ### Rubric
-# 
-# Question | Points
-# --- | ---
-# Question 1.1 | 1
-# Question 1.2 | 1
-# Question 1.3 | 1
-# Question 1.4 | 1
-# Question 2.1 | 1
-# Question 2.2 | 2
-# Question 3.1 | 1
-# Question 3.2 | 2
-# Question 4.1 | 3
-# Question 4.2 | 1
-# Question 5.1 | 2
-# Question 5.2 | 1
-# Question 5.3 | 1
-# Total | 18
-
-# We will study data adapted from the [Million Song Dataset](http://labrosa.ee.columbia.edu/millionsong/). 
-# 
-# <img src="image.PNG" width="550px">
-# 
-# 
 # The data consists of 
 # 
 # - title of song
@@ -54,18 +7,6 @@
 # with songs from the `Country` and `Hip-hop` genres. 
 # 
 # We want to use song lyrics to distinguish the genres. We have compiled about 5,000 words relevant to song lyrics. Differences in the frequency of words will help us to classify songs as `Country` or `Hip-hop`.
-# 
-# ### 0. Load the Data
-# 
-# For the assignment we will need the
-# 
-# -  `numpy` package for manipulations of arrays
-# -  `matplotlib` package for generating charts
-# - `pandas` package for handling tables 
-# 
-# Moreover, we will need a helper function that generates charts with the `seaborn` package.
-
-# In[1]:
 
 
 # import some packages
